@@ -2,12 +2,10 @@
 using namespace std;
 
 int main(){
- 
 #ifndef ONLINE_JUDGE
 	freopen("input.txt","r",stdin);
 	freopen("output.txt","w",stdout);
 #endif
-	
 	int n,t;
 	cin>>n>>t;
 	int a[n][t+1];
@@ -22,7 +20,6 @@ int main(){
 		}
 		cin>>m[i];
 	}
-
 	int mxi[n]={0};
 	for(int i=2;i<t;i+=2){
 		int max=0;
@@ -56,7 +53,5 @@ int main(){
 		}
 	}
 	cout<<ri+1<<endl;
-		
-
 	return 0; 
 }
