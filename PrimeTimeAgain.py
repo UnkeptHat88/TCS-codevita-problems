@@ -1,3 +1,5 @@
+#succesfull/presentation error
+
 inp = input().split()
 d = int(inp[0])
 p = int(inp[1])
