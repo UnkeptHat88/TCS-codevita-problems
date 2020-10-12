@@ -7,6 +7,7 @@ using namespace std;
 int main(){
 	
 	int n,q;
+	float f;
 	string s;
 	cin>>n;
 	cin>>s;
